@@ -1,0 +1,20 @@
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.display-area {
+    border: 1px solid black;
+    display: flex;
+    height: 100vh;
+    width: 100vh;
+}
+
+.pixel {
+    background-color: red;
+    flex: 1;
+}
+
+.pixel:hover {
+    background-color: blue;
+}
