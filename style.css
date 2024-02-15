@@ -12,15 +12,11 @@ body {
 }
 
 .pixel {
-    background-color: red;
+    background-color: tan;
     flex: 1;
 }
 
 .pixel-row {
     display: flex;
     flex: 1;
-}
-
-.pixel:hover {
-    background-color: blue;
 }

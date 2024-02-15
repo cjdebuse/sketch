@@ -15,3 +15,11 @@ for (let i = 1; i <= 64; i++) {
 }
 
 body.appendChild(displayArea);
+
+displayArea.addEventListener('mouseover', changePixel);
+
+function changePixel(event) {
+    if (event.target.className == 'pixel') {
+        event.target.style.backgroundColor = 'black';
+    }
+}
