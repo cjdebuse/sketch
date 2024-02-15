@@ -6,12 +6,18 @@ body {
 .display-area {
     border: 1px solid black;
     display: flex;
+    flex-direction: column;
     height: 100vh;
     width: 100vh;
 }
 
 .pixel {
     background-color: red;
+    flex: 1;
+}
+
+.pixel-row {
+    display: flex;
     flex: 1;
 }
 
