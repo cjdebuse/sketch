@@ -3,12 +3,16 @@ body {
     width: 100vw;
 }
 
+button {
+    margin-bottom: 8px;
+}
+
 .display-area {
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    width: 100vh;
+    height: 90vh;
+    width: 90vh;
 }
 
 .pixel {
